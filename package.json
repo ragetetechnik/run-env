@@ -1,0 +1,33 @@
+{
+  "name": "run-env",
+  "version": "0.0.1",
+  "description": "log and edit env variables at runtime",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc -w",
+    "start": "node --env-file=.env index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ragetetechnik/run-env.git"
+  },
+  "keywords": [
+    "Environment",
+    "Variables",
+    "Env"
+  ],
+  "author": "ragetetechnik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ragetetechnik/run-env/issues"
+  },
+  "homepage": "https://github.com/ragetetechnik/run-env#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+  }
+}
